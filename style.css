@@ -1,0 +1,155 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.body-p {
+  font-size: 20px;
+}
+.index-intro{
+grid-area:home-intro;
+}
+.home-body {
+  text-align: center;
+  background-color: rgb(105, 166, 120);
+}
+
+.home-display {
+  text-align:center;
+  display:grid;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: white;
+  grid-auto-columns: 1fr,1fr,1fr;
+  grid-auto-rows: minmax(87px,auto);
+  grid-template-areas:
+  "... home-intro ..."
+}
+
+.head-nav {
+  height: 5%;
+  color: white;
+  padding: 15px;
+}
+
+.current {
+  color: gold;
+}
+
+a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.info-container {
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: white;
+  display: grid;
+  grid-gap: ;
+  grid-auto-columns: 1fr, 1fr, 1fr;
+  grid-auto-rows: minmax(87px, auto);
+  grid-template-areas:
+    "... location ..."
+    "... contact ...";
+}
+
+.info-body {
+  text-align: center;
+  background-color: rgb(105, 166, 120);
+}
+
+.info-location {
+  grid-area: location;
+  padding-bottom: 1fr;
+}
+
+.info-contact {
+  grid-area: contact;
+}
+
+.info-footer {
+  height: 5%;
+  color: white;
+  padding: 15px;
+}
+
+.contact-body {
+  background-color: rgb(105, 166, 120);
+}
+
+.contact-container {
+  background-color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: grid;
+  grid-auto-columns: 1fr, 1fr 1fr;
+  grid-auto-rows: minmax(87px, auto);
+  grid-template-areas:
+    "... con-soc ...";
+}
+
+.contact-social {
+  grid-area: con-soc;
+}
+
+.employment-body {
+  text-align: center;
+  background-color: rgb(105, 166, 120);
+}
+
+
+.employment-container{
+  display:grid;
+  color:black;
+  margin-left:30%;
+  margin-right:30%;
+  background-color: white;
+  grid-auto-columns: 1fr,1fr,1fr;
+  grid-auto-rows: minmax(87px,auto);
+  grid-template-areas:
+  "... em-title ..."
+  "... em-hours ..."
+  "... em-role ..."
+  "... em-app ...";
+}
+.employment-title{
+  grid-area:em-title;
+}
+.employment-hours{
+  grid-area:em-hours;
+}
+.employment-role{
+  grid-area:em-role;
+}
+.employment-application{
+  grid-area:em-app;
+}
+.amenity-body {
+  text-align: center;
+  background-color: rgb(105, 166, 120);
+}
+
+.amenities-container {
+  background-color: ;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: grid;
+  grid-auto-columns: 1fr, 1fr, 1fr;
+  grid-auto-rows: minmax(87px, auto);
+  grid-template-areas:
+    "...  am-gal  ...";
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.amenities-gallery {
+  grid-area: am-gal;
+}
+
+.contact-body {
+  text-align: center;
+}
