@@ -145,6 +145,10 @@ a {
   width: 100%;
   height: auto;
 }
+.responsive-1{
+  width: 75%;
+  height: auto;
+}
 
 .amenities-gallery {
   grid-area: am-gal;
