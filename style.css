@@ -146,8 +146,12 @@ a {
   height: auto;
 }
 .responsive-1{
-  width: 50%;
+  width: 100%;
   height: auto;
+}
+.responsive-map{
+  width:100%;
+  height: minmax(300px, auto);
 }
 
 .amenities-gallery {
