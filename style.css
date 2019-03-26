@@ -50,10 +50,13 @@ a {
   grid-auto-columns: 1fr, 1fr, 1fr;
   grid-auto-rows: minmax(87px, auto);
   grid-template-areas:
+    "... info-add ..."
     "... location ..."
     "... contact ...";
 }
-
+.info-address{
+  grid-area:info-add;
+}
 .info-body {
   text-align: center;
   background-color: rgb(105, 166, 120);
