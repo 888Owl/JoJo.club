@@ -178,4 +178,6 @@ a {
 text-decoration:underline;
 }
 .bigger{
-  color:gold;}
+  color:gold;
+  font-size:45px;
+}
