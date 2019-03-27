@@ -124,7 +124,7 @@ a {
   font-size: 30px;
 }
 .p-hours{
-  font-size:30px;
+  font-size:30px;}
 .employment-role{
   grid-area:em-role;
 }
@@ -157,7 +157,7 @@ a {
 }
 .responsive-map{
   width:100%;
-  height: 600px;
+  height: 800px;
 }
 
 .amenities-gallery {
