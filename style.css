@@ -37,7 +37,7 @@ grid-area:home-intro;
 
 a {
   color: white;
-  font-size: 25px;
+  font-size: 45px;
   text-decoration: none;
 }
 
@@ -121,10 +121,10 @@ a {
 }
 .employment-hours{
   grid-area:em-hours;
-  font-size: 30px;
+  font-size: 35px;
 }
 .p-hours{
-  font-size:30px;}
+  font-size:35px;}
 .employment-role{
   grid-area:em-role;
 }
@@ -132,7 +132,7 @@ a {
   grid-area:em-app;
 }
 .employment-incentives{
-  font-size:30px;}
+  font-size:35px;}
 .amenity-body {
   text-align: center;
   background-color: rgb(105, 166, 120);
