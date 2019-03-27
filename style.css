@@ -131,6 +131,8 @@ a {
 .employment-application{
   grid-area:em-app;
 }
+.employment-incentives{
+  font-size:30px;}
 .amenity-body {
   text-align: center;
   background-color: rgb(105, 166, 120);
