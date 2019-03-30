@@ -9,7 +9,7 @@ body {
 }
 @media screen and (max-width: 600px;){
   body {
-    background-image: url(jo-jo-101-long.jpg);
+    background-image: url(jo-jo-101-mobile.jpg);
   background-size: 100%, 100%;
   background-repeat: no-repeat;
     background-attachment: fixed;}
