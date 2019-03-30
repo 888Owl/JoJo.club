@@ -1,19 +1,18 @@
 body {
   font-family: 'Noto Sans TC', sans-serif;
 }
-@media screen and (min-width: 600px;){
+@media screen and (min-width: 480px;){
   body {background-image: url(jo-jo-101.jpg);
   background-size: 100%, 100%;
   background-repeat: no-repeat;
     background-attachment: fixed;}
 }
-@media screen and (max-width: 600px;){
   body {
     background-image: url(jo-jo-101-mobile.jpg);
   background-size: 100%, 100%;
   background-repeat: no-repeat;
     background-attachment: fixed;}
-}
+
 
 .body-p {
   font-size: 35px;
