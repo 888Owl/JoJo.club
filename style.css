@@ -9,7 +9,7 @@ body {
 
   .employment-body {
     background-image: url(jo-jo-101-mobile.jpg);
-  background-size: 100%, 100%;
+  background-size: auto, 100%;
   background-repeat: no-repeat;
     background-attachment: fixed;}
 
