@@ -125,7 +125,7 @@ a {
 
 .employment-container{
   display:grid;
-  color:black;
+  color:white;
 
   background-color: rgb(255,250,250,0.3);
   grid-auto-columns: 1fr,1fr,1fr;
