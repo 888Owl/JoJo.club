@@ -1,17 +1,13 @@
 body {
   font-family: 'Noto Sans TC', sans-serif;
 }
-@media (max-width: 480px;){
-  .employment-body {background-image: url(jo-jo-101.jpg);
-  background-size: 100%, 100%;
-  background-repeat: no-repeat;
-    background-attachment: fixed;}}
+
 
   .employment-body {
     padding-top:15%;
     background-color:black;
     background-image: url(jo-jo-101-mobile.jpg);
-  background-size: 100%, 120%;
+  background-size: 100%, 100%;
   background-repeat: no-repeat;
     background-attachment: fixed;}
 
@@ -27,18 +23,13 @@ grid-area:home-intro;
  color:red; 
 text-decoration:underline;
 }
-@media (max-width:480px;){
-  .home-body{
-  background-color:black;
-    background-image: url(jo-jo-101-mobile.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-}
+
 .home-body {
   text-align: center;
-  background-color: rgb(105, 166, 120);
-}
+background-color:black;
+    background-image: url(jo-jo-101-mobile.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
 
 .home-display {
   text-align:center;
