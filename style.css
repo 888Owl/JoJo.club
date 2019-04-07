@@ -2,7 +2,7 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
-@media (max-width:980px){
+@media (max-width:600px){
 .employment-body {
   text-align:center;
   background-image: url(jo-jo-101-mobile.jpg);
@@ -13,7 +13,7 @@ body {
   
   }
 }
-
+@media (min-width:600px){
  .employment-body {
     text-align: center;
     background-image: url(jo-jo-101.jpg);
@@ -21,7 +21,7 @@ body {
     background-repeat: no-repeat;
   background-attachment: fixed;
   }
-
+}
 
 .body-p {
   font-size: 35px;
