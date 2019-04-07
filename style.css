@@ -2,6 +2,17 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
+@media (max-width:600px){
+.employment-body {
+  text-align:center;
+  background-image: url(jo-jo-101-mobile.jpg);
+  background-size: 100%, auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  
+  }
+}
 
  .employment-body {
     text-align: center;
