@@ -2,7 +2,7 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
-@media (max-width:600px){
+@media (max-width:980px){
 .employment-body {
   text-align:center;
   background-image: url(jo-jo-101-mobile.jpg);
