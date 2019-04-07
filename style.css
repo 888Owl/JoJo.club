@@ -3,13 +3,13 @@ body {
 }
 
 
-  .employment-body {
-    padding-top:15%;
-    background-color:black;
-    background-image: url(jo-jo-101-mobile.jpg);
-  background-size: 100%, 100%;
-  background-repeat: no-repeat;
-    background-attachment: fixed;}
+ .employment-body {
+    text-align: center;
+    background-image: url(jo-jo-101.jpg);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
 
 
 .body-p {
