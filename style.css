@@ -53,18 +53,39 @@ background-color:black;
   grid-template-areas:
   "... home-intro ..."
 }
+@media (max-width: 600px){
+.head-nav {
+  position:fixed;
+  height: 5%;
+  color: white;
+  padding: 10px;
+  background-color: rgba(1,1,1,0.4);
+  }
+}
 
+@media (min-width: 600px){
 .head-nav {
   height: 5%;
   color: white;
   padding: 20px;
   background-color: rgba(1,1,1,0.4);
+  }
 }
 
 .current {
   color: gold;
 }
 
+@media (max-width: 600px;){
+a {
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+  padding:1%;
+  margin-bottom:10px;
+}
+}
+@media (min-width: 600px;){
 a {
   color: white;
   font-size: 45px;
@@ -72,7 +93,7 @@ a {
   padding:1%;
   margin-bottom:10px;
 }
-
+}
 .info-container {
   margin-left: 10%;
   margin-right: 10%;
