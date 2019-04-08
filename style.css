@@ -5,7 +5,7 @@ body {
 @media (max-width:600px){
 .employment-body {
   text-align:center;
-  background-image: url(preview.jpeg);
+  background-image: url(Preview.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -128,10 +128,6 @@ a {
   grid-area: con-soc;
 }
 
-.employment-body {
-  text-align: center;
-}
-
 
 .employment-container{
   display:grid;
@@ -150,12 +146,28 @@ a {
 .employment-title{
   grid-area:em-title;
 }
+@media (max-width:600px){
+.employment-hours{
+  grid-area:em-hours;
+  font-size: 25px;
+}
+}
+@media (min-width: 600px){
 .employment-hours{
   grid-area:em-hours;
   font-size: 35px;
 }
+}
+
+@media (max-width: 600px){
+.p-hours{
+  font-size:25px;}
+}
+
+@media (min-width: 600px){
 .p-hours{
   font-size:35px;}
+}
 .employment-role{
   grid-area:em-role;
 }
