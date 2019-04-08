@@ -81,7 +81,7 @@ background-color:black;
 @media (max-width: 600px){
 a {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   text-decoration: none;
   padding:1%;
   margin-bottom:10px;
@@ -197,8 +197,15 @@ a {
 .employment-application{
   grid-area:em-app;
 }
+@media (max-width:600px){
+.employment-incentives{
+  font-size:25px;}
+}
+@media (min-width:600px){
 .employment-incentives{
   font-size:35px;}
+}
+
 .amenity-body {
   text-align: center;
   background-color: rgb(105, 166, 120);
