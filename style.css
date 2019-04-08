@@ -4,17 +4,17 @@ body {
 
 @media (max-width:600px){
 .employment-body {
+  background-color: black;
   text-align:center;
   background-image: url(Preview.jpeg);
-  background-size: contain;
+  background-size: 100%, auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: black;
-  
   }
 }
 @media (min-width:600px){
  .employment-body {
+    background-color: black;
     text-align: center;
     background-image: url(jo-jo-101.jpg);
     background-size: 100%, auto;
@@ -55,6 +55,7 @@ background-color:black;
 }
 @media (max-width: 600px){
 .head-nav {
+  text-align:center;
   position:fixed;
   height: 5%;
   color: white;
@@ -65,6 +66,7 @@ background-color:black;
 
 @media (min-width: 600px){
 .head-nav {
+  text-align:center;
   height: 5%;
   color: white;
   padding: 20px;
@@ -76,7 +78,7 @@ background-color:black;
   color: gold;
 }
 
-@media (max-width: 600px;){
+@media (max-width: 600px){
 a {
   color: white;
   font-size: 35px;
@@ -85,7 +87,7 @@ a {
   margin-bottom:10px;
 }
 }
-@media (min-width: 600px;){
+@media (min-width: 600px){
 a {
   color: white;
   font-size: 45px;
