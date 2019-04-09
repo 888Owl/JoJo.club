@@ -10,7 +10,7 @@ body {
   background-image: url(Preview.jpeg);
   background-size: 100%, auto;
   background-repeat: no-repeat;
-  background-attachment: local;
+  background-position: fixed;
   }
 }
 @media (min-width:600px){
