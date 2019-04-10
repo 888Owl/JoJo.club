@@ -8,8 +8,14 @@ body {
   text-align:center;
   background-image: url(jo-jo-101-mobile.jpg);
   background-repeat: round;
-  background-size: 100%, auto;
   background-attachment: fixed;
+  background-size: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: -10;
   }
 }
 @media (min-width:600px){
