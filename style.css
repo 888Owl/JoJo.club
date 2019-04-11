@@ -7,8 +7,8 @@ body {
   text-align:center;
   background-color: black;
   background-image: url(jo-jo-101-mobile.jpg);
-  background-attachment: fixed !important;
-  background-size: 100%, 200%;
+  background-attachment: fixed;
+  background-size: 100%, auto;
   background-repeat:no-repeat;
   }
 }
@@ -151,6 +151,25 @@ a {
 }
 
 
+@media (max-width: 600px;){
+.employment-container{
+  margin-top:30%;
+  display:grid;
+  color:black;
+  margin-left:10%;
+  margin-right:10%;
+  background-color: rgb(255,250,250,0.7);
+  grid-auto-columns: 1fr,1fr,1fr;
+  grid-auto-rows: minmax(87px,auto);
+  grid-template-areas:
+  "... em-title ..."
+  "... em-hours ..."
+  "... em-role ..."
+  "... em-app ...";
+}
+}
+
+@media (min-width: 600px;){
 .employment-container{
   margin-top:10%;
   display:grid;
@@ -165,6 +184,7 @@ a {
   "... em-hours ..."
   "... em-role ..."
   "... em-app ...";
+}
 }
 .employment-title{
   grid-area:em-title;
