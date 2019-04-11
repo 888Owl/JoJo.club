@@ -8,7 +8,7 @@ body {
   background-color: ;
   background-image: url(jo-jo-101-mobile.jpg);
   background-attachment: fixed;
-  background-size: 100%, auto;
+  background-size: 1000px, auto;
   background-repeat:no-repeat;
   }
 }
@@ -153,7 +153,7 @@ a {
 
 @media (max-width: 600px;){
 .employment-container{
-  margin-top:30%;
+  margin-top:1050px;
   display:grid;
   color:black;
   background-color: rgb(255,250,250);
