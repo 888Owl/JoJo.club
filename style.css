@@ -3,15 +3,13 @@ body {
 }
 
 @media (max-width:600px){
-.employment-mobile-container {
+.employment-body{
   text-align:center;
-  min-width:100%;
   background-color: ;
   background-image: url(jo-jo-101-mobile.jpg);
   background-attachment: fixed;
-  background-size: 100%, auto;
+  background-size: 100vw, 100vh;
   background-repeat:no-repeat;
-  margin:0px;
   }
 }
 @media (min-width:600px){
