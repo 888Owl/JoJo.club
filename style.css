@@ -57,9 +57,10 @@ background-color:black;
 }
 @media (max-width: 600px){
 .head-nav {
+  top:0px;
   width:100%;
   text-align:center;
-  position:fixed;
+  position:absolute;
   height: 5%;
   color: white;
   background-color: rgba(1,1,1,0.4);
@@ -86,7 +87,7 @@ a {
   font-size: 30px;
   text-decoration: none;
   padding:1%;
-  margin-bottom:10px;
+  margin-bottom:;
 }
 }
 @media (min-width: 600px){
