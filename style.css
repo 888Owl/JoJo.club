@@ -3,7 +3,7 @@ body {
 }
 
 @media (max-width:600px){
-.employment-body {
+.employment-mobile-container {
   text-align:center;
   background-color: ;
   background-image: url(jo-jo-101-mobile.jpg);
@@ -55,6 +55,7 @@ background-color:black;
 }
 @media (max-width: 600px){
 .head-nav {
+  width:100%;
   text-align:center;
   position:fixed;
   height: 5%;
