@@ -254,7 +254,7 @@ employment styling
     grid-area: em-hours;
     font-size: 25px;
     
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px white;
   }
 }
 
@@ -272,7 +272,7 @@ employment styling
     font-weight: bolder;
     color: gold;
     
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px white;
   }
 }
 
@@ -288,7 +288,7 @@ employment styling
   .p-hours {
     font-size: 25px;
     
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px white;
   }
 }
 
@@ -310,7 +310,7 @@ employment styling
   .employment-incentives {
     font-size: 25px;
     
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px white;
   }
 }
 
