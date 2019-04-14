@@ -185,7 +185,7 @@ location styling
 employment styling
 
 ***/
-@media (max-width:600px) {
+@media (max-width:900px) {
   .employment-body {
     text-align: center;
     background-color: ;
@@ -195,7 +195,7 @@ employment styling
     background-repeat: no-repeat;
   }
 }
-@media (max-width:900px) {
+@media (max-width:1200px) {
   .employment-body {
     text-align: center;
     background-color: ;
@@ -206,7 +206,7 @@ employment styling
   }
 }
 
-@media (min-width:900px) {
+@media (min-width:1200px) {
   .employment-body {
     background-color: black;
     text-align: center;
@@ -264,8 +264,7 @@ employment styling
   .employment-hours {
     grid-area: em-hours;
     font-size: 25px;
-    
-    text-shadow: 1px 1px white;
+    color:white;
   }
 }
 
@@ -273,7 +272,6 @@ employment styling
   .employment-hours {
     grid-area: em-hours;
     font-size: 35px;
-    
   }
 }
 
@@ -282,8 +280,7 @@ employment styling
     font-size: 35px;
     font-weight: bolder;
     color: gold;
-    
-    text-shadow: 1px 1px white;
+    color:white;
   }
 }
 
@@ -298,8 +295,7 @@ employment styling
 @media (max-width: 600px) {
   .p-hours {
     font-size: 25px;
-    
-    text-shadow: 1px 1px white;
+    color:white;
   }
 }
 
@@ -320,8 +316,7 @@ employment styling
 @media (max-width:600px) {
   .employment-incentives {
     font-size: 25px;
-    
-    text-shadow: 1px 1px white;
+    color:white;
   }
 }
 
