@@ -187,8 +187,9 @@ employment styling
 ***/
 @media (max-width:900px) {
   .employment-body {
-    text-align: center;
+    text-align: center !important;
     background-color: ;
+    background-postion:center !important;
     background-image: url(jo-jo-101-mobile.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -198,6 +199,7 @@ employment styling
 @media (max-width:1200px) {
   .employment-body {
     text-align: center;
+    background-postion:center !important;
     background-color: ;
     background-image: url(jo-jo-101.jpg);
     background-attachment: fixed;
