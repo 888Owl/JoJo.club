@@ -156,6 +156,7 @@ a {
 
 @media (max-width: 600px;){
 .employment-container{
+  padding-top:10%;
   display:grid;
   text-shadow:2px 2px white;
   color:black;
