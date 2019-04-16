@@ -124,14 +124,15 @@ contact styling
   grid-auto-columns: 1fr, 1fr 1fr;
   grid-auto-rows: minmax(87px, auto);
   grid-template-areas:
-    "... con-soc ...";
+    "... con-soc ..."
+    "... con-space ...";
 }
 
 .contact-social {
   grid-area: con-soc;
 }
-.contact-body {
-  text-align: center;
+.contact-space{
+  grid-area: con-space;
 }
 /***
 
