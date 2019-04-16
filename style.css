@@ -133,6 +133,7 @@ contact styling
 }
 .contact-space{
   grid-area: con-space;
+  height:5%;
 }
 /***
 
