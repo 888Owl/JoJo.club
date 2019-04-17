@@ -222,7 +222,7 @@ employment styling
   }
 }
 
-@media (max-width: 900px;) {
+@media (max-width: 900px) {
   .employment-container {
     background-color: rgba(250, 250, 250, 0.5);
     margin:10%;
@@ -240,7 +240,7 @@ employment styling
       "... em-app ...";
   }
 }
-@media (max-width: 1200px;) {
+@media (max-width: 1200px) {
   .employment-container {
     background-color: rgba(250, 250, 250, 0.5);
     margin:10%;
@@ -256,9 +256,7 @@ employment styling
       "... em-app ...";
   }
 }
-@media (min-width: 1200px;
-
-) {
+@media (min-width: 1200px) {
   .employment-container {
     background-color: rgba(250, 250, 250, 0.5);
     margin: 10%;
