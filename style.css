@@ -234,7 +234,6 @@ employment styling
     grid-auto-rows: minmax(87px, auto);
     grid-gap: 10%;
     grid-template-areas:
-      "...bg-spacer ..."
       "... em-title ..."
       "... em-hours ..."
       "... em-role ..."
