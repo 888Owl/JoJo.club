@@ -37,7 +37,7 @@ body {
     width: 100%;
     text-align: center;
     position: absolute;
-    margin-bottom:25%
+    margin-bottom:25%;
     padding: 2%;
     height: 10%;
     color: white;
@@ -192,7 +192,6 @@ employment styling
   .employment-body {
     text-align: center !important;
     background-color: ;
-    background-postion:center !important;
     background-image: url(jo-jo-101-mobile.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -202,7 +201,6 @@ employment styling
 @media (max-width:1200px) {
   .employment-body {
     text-align: center;
-    background-postion:center !important;
     background-color: ;
     background-image: url(jo-jo-101.jpg);
     background-attachment: fixed;
