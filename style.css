@@ -224,7 +224,7 @@ employment styling
 
 @media (max-width: 900px) {
   .employment-container {
-    background-color: rgb(250, 250, 250);
+    background-color: rgba(250, 250, 250,0.5);
     margin:10%;
     padding-top: 10%;
     display: grid;
@@ -243,7 +243,7 @@ employment styling
 }
 @media (max-width: 1200px) {
   .employment-container {
-    background-color: rgb(250, 250, 250);
+    background-color: rgba(250, 250, 250,0.5);
     margin:10%;
     display: grid;
     color: white;
@@ -260,7 +260,7 @@ employment styling
 }
 @media (min-width: 1200px) {
   .employment-container {
-    background-color: rgb(250, 250, 250);
+    background-color: rgba(250, 250, 250,0.5);
     margin: 10%;
     display: grid;
     color: white;
