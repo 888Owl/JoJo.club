@@ -224,12 +224,12 @@ employment styling
 
 @media (max-width: 900px;) {
   .employment-container {
+    background-color: rgba(250, 250, 250, 0.5);
     margin:10%;
     padding-top: 10%;
     display: grid;
     color: white;
     background-size:100%;
-    background-color: rgba(250, 250, 250, 0.5);
     grid-auto-columns: 1fr, 1fr, 1fr;
     grid-auto-rows: minmax(87px, auto);
     grid-gap: 10%;
@@ -242,10 +242,10 @@ employment styling
 }
 @media (max-width: 1200px;) {
   .employment-container {
+    background-color: rgba(250, 250, 250, 0.5);
     margin:10%;
     display: grid;
     color: white;
-    background-color: rgba(250, 250, 250, 0.5);
     grid-auto-columns: 1fr, 1fr, 1fr;
     grid-auto-rows: minmax(87px, auto);
     grid-gap: 10%;
@@ -260,10 +260,10 @@ employment styling
 
 ) {
   .employment-container {
+    background-color: rgba(250, 250, 250, 0.5);
     margin: 10%;
     display: grid;
     color: white;
-    background-color: rgb(250, 250, 250);
     grid-auto-columns: 1fr, 1fr, 1fr;
     grid-auto-rows: minmax(87px, auto);
     grid-template-areas:
