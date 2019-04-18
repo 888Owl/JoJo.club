@@ -331,7 +331,6 @@ employment styling
 .employment-application {
   grid-area: em-app;
   color:black;
-  text-align:right;
 }
 
 @media (max-width:600px) {
