@@ -271,9 +271,11 @@ employment styling
       "... em-app ...";
   }
 }
+@media (min-width:1200px){
 .background-spacer{
   grid-area: bg-spacer;
   height:100%;}
+}
 .employment-title {
   grid-area: em-title;
 }
