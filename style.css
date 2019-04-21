@@ -294,16 +294,6 @@ employment styling
       "... em-app ...";
   }
 }
-@media (max-width:1200px){
-.background-spacer{
-  grid-area: bg-spacer;
-  height:1%;}
-}
-@media (min-width:1200px){
-.background-spacer{
-  grid-area: bg-spacer;
-  height:100%;}
-}
 .employment-title {
   grid-area: em-title;
 }
