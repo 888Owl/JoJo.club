@@ -86,7 +86,7 @@ home page styling
   background-color: black;
   background-image: url(jo-jo-101.jpg);
   background-repeat: no-repeat;
-  background-size:100%,auto;
+  background-size: 100%, auto;
   background-attachment: fixed;
 }
 }
