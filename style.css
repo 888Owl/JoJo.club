@@ -348,7 +348,7 @@ employment styling
 
 .employment-application {
   grid-area: em-app;
-  color:turqoise;
+  color:teal;
 }
 
 @media (max-width:600px) {
