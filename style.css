@@ -246,8 +246,8 @@ employment styling
 @media (max-width: 900px) {
   .employment-container {
     background-color: rgba(5, 5, 5,0.5);
-    margin:10%;
-    padding-top: 10%;
+    margin-left:10%;
+    margin-right:10%;
     display: grid;
     color: rgb(105, 166, 120);
     background-size:100%;
