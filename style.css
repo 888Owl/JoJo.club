@@ -249,7 +249,7 @@ employment styling
     margin-left:10%;
     margin-right:10%;
     display: grid;
-    color: rgb(105, 166, 120);
+    color: white;
     background-size:100%;
     grid-auto-columns: 1fr, 1fr, 1fr;
     grid-auto-rows: minmax(87px, auto);
@@ -280,7 +280,7 @@ employment styling
     background-color: rgba(5, 5, 5,0.5);
     margin: 10%;
     display: grid;
-    color: rgb(105, 166, 120);
+    color: rgb(200,200,200);
     grid-auto-columns: 1fr, 1fr, 1fr;
     grid-auto-rows: minmax(87px, auto);
     grid-template-areas:
@@ -343,6 +343,7 @@ employment styling
   grid-area: em-app;
   color:black;
   background-color:white;
+  padding-bottom:5%;
 }
 }
 @media (min-width: 900px) {
