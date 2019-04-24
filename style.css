@@ -289,9 +289,7 @@ employment styling
       "... em-app ...";
   }
 }
-.employment-title {
-  grid-area: em-title;
-}
+
 
 @media (max-width:600px) {
   .employment-hours {
@@ -340,14 +338,14 @@ employment styling
 .employment-role {
   grid-area: em-role;
 }
-@media (max-width: 900px)
+@media (max-width: 900px) {
 .employment-application {
   grid-area: em-app;
   color:black;
   background-color:white;
 }
 }
-@media (min-width: 900px)
+@media (min-width: 900px) {
 .employment-application {
   grid-area: em-app;
   color:teal;
