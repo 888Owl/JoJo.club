@@ -346,12 +346,13 @@ employment styling
   color:black;
   background-color:white;
 }
+}
 @media (min-width: 900px)
 .employment-application {
   grid-area: em-app;
   color:teal;
 }
-
+}
 @media (max-width:600px) {
   .employment-incentives {
     font-size: 25px;
