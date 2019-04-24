@@ -340,7 +340,13 @@ employment styling
 .employment-role {
   grid-area: em-role;
 }
-
+@media (max-width: 900px)
+.employment-application {
+  grid-area: em-app;
+  color:black;
+  background-color:white;
+}
+@media (min-width: 900px)
 .employment-application {
   grid-area: em-app;
   color:teal;
