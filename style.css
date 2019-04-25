@@ -213,6 +213,7 @@ employment styling
 ***/
 @media (max-width:900px) {
   .employment-body {
+    color: rgb(200,200,200);
     text-align: center !important;
     background-color: ;
     background-image: url(jo-jo-101-mobile.jpg);
@@ -223,6 +224,8 @@ employment styling
 }
 @media (max-width:1200px) {
   .employment-body {
+    
+    color: rgb(200,200,200);
     text-align: center;
     background-color: ;
     background-image: url(jo-jo-101.jpg);
@@ -295,14 +298,15 @@ employment styling
   .employment-hours {
     grid-area: em-hours;
     font-size: 25px;
-    color:black;
-  }
+
+    color: rgb(200,200,200);  }
 }
 
 @media (min-width: 600px) {
   .employment-hours {
     grid-area: em-hours;
     font-size: 35px;
+    color: rgb(200,200,200);
   }
 }
 
@@ -325,7 +329,7 @@ employment styling
 @media (max-width: 600px) {
   .p-hours {
     font-size: 25px;
-    color:black;
+    color: rgb(200,200,200);
   }
 }
 
@@ -342,6 +346,7 @@ employment styling
 .employment-application {
   grid-area: em-app;
   color:black;
+  font-size:25px;
   background-color:white;
   padding-bottom:5%;
 }
@@ -349,19 +354,21 @@ employment styling
 @media (min-width: 900px) {
 .employment-application {
   grid-area: em-app;
-  color:teal;
+  font-size:35px;
+    color: rgb(200,200,200);
 }
 }
 @media (max-width:600px) {
   .employment-incentives {
     font-size: 25px;
-    color:black;
+    color: rgb(200,200,200);
   }
 }
 
 @media (min-width:600px) {
   .employment-incentives {
     font-size: 35px;
+    color: rgb(200,200,200);
   }
 }
 
