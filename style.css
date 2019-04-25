@@ -82,7 +82,7 @@ home page styling
   background-attachment: fixed;
 }
 }
-@media (min-width:1200px;){
+@media (min-width:1200px){
   .home-body {
     background-color: black;
     text-align: center;
@@ -181,6 +181,7 @@ contact styling
 
 .contact-social {
   grid-area: con-soc;
+  font-size:25px;
 }
 .contact-space{
   grid-area: con-space;
@@ -208,6 +209,7 @@ location styling
 
 .info-address {
   grid-area: info-add;
+  font-size:25px;
 }
 @media (max-width:900px){
 .info-body {
@@ -430,11 +432,42 @@ gallery styling
 
 ***/
 
+@media (max-width:900px) {
+  
+.amenity-body {
+    color: rgb(200,200,200);
+    text-align: center !important;
+    background-color: ;
+    background-image: url(jo-jo-101-mobile.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width:1200px) {
+ 
+.amenity-body {
+    
+    color: rgb(200,200,200);
+    text-align: center;
+    background-color: ;
+    background-image: url(jo-jo-101.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 
+@media (min-width:1200px) {
 
 .amenity-body {
-  text-align: center;
-  background-color: rgb(105, 166, 120);
+    background-color: black;
+    text-align: center;
+    background-image: url(jo-jo-101.jpg);
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
 .amenities-container {
