@@ -62,6 +62,7 @@ home page styling
 ***/
 @media (max-width:900px){
   .home-body {
+    font-size:25px;
   text-align: center;
   background-color: black;
   background-image: url(jo-jo-101-mobile.jpg);
@@ -73,6 +74,7 @@ home page styling
 @media (max-width:1200px){
   .home-body {
   text-align: center;
+  font-size:30px;
   background-color: black;
   background-image: url(jo-jo-101-mobile.jpg);
   background-repeat: no-repeat;
@@ -193,7 +195,7 @@ location styling
 .info-container {
   margin-left: 10%;
   margin-right: 10%;
-  background-color: white;
+  background-color: rgba(5,5,5,0.4);
   display: grid;
   grid-gap: ;
   grid-auto-columns: 1fr, 1fr, 1fr;
@@ -207,10 +209,35 @@ location styling
 .info-address {
   grid-area: info-add;
 }
-
+@media (max-width:900px){
 .info-body {
-  text-align: center;
-  background-color: rgb(105, 166, 120);
+    color: rgb(200,200,200);
+    text-align: center !important;
+    background-color: ;
+    background-image: url(jo-jo-101-mobile.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}@media (max-width:1200px){
+.info-body {
+    color: rgb(200,200,200);
+    text-align: center;
+    background-color: ;
+    background-image: url(jo-jo-101.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}@media (min-width:1200px){
+.info-body {
+    background-color: black;
+    text-align: center;
+    background-image: url(jo-jo-101.jpg);
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
 .info-location {
