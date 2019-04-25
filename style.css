@@ -136,16 +136,40 @@ home page styling
 contact styling
 
 ***/
-.contact-body {
-  text-align:center;
-  background-color: rgb(105, 166, 120);
-}
+@media (max-width:900px){
+  .contact-body {
+    background-color: black;
+    text-align: center;
+    background-image: url(jo-jo-101-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }}
+@media (max-width:1200px){
+  .contact-body {
+    background-color: black;
+    text-align: center;
+    background-image: url(jo-jo-101-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }}
+@media (min-width:1200px){
+  .contact-body {
+    background-color: black;
+    text-align: center;
+    background-image: url(jo-jo-101.jpg);
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }}
 
 .contact-container {
   background-color: rgb(250, 250, 250, 0.4);
   margin-left: 10%;
   margin-right: 10%;
   display: grid;
+  color:rgb(200,200,200);
   grid-auto-columns: 1fr, 1fr 1fr;
   grid-auto-rows: minmax(87px, auto);
   grid-template-areas:
