@@ -60,7 +60,7 @@ body {
 home page styling
 
 ***/
-@media(max-width:900px){
+@media (max-width:900px){
   .home-body {
   text-align: center;
   background-color: black;
@@ -70,7 +70,7 @@ home page styling
   background-attachment: fixed;
 }
 }
-@media(max-width:1200px){
+@media (max-width:1200px){
   .home-body {
   text-align: center;
   background-color: black;
@@ -80,13 +80,14 @@ home page styling
   background-attachment: fixed;
 }
 }
-@media(min-width:1200px;){
+@media (min-width:1200px;){
   .home-body {
-  text-align: center;
-  background-image: url(jo-jo-101.jpg);
-  background-size: 100%, auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-color: black;
+    text-align: center;
+    background-image: url(jo-jo-101.jpg);
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 }
 
