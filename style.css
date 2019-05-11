@@ -6,7 +6,11 @@ styling
 body {
   font-family: 'Noto Sans TC', sans-serif;
 }
-
+footer{
+  text-align:center;
+  background-color: rgba(50,50,50,0.5);
+  height:5%;
+}
 .current {
   color: gold;
 }
