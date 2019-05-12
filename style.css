@@ -329,7 +329,8 @@ employment styling
     grid-template-areas:
       "... em-hours ..."
       "... em-role ..."
-      "... em-app ...";
+      "... em-app ..."
+      "... foot ...";
   }
 }
 @media (max-width: 1200px) {
@@ -344,7 +345,8 @@ employment styling
     grid-template-areas:
       "... em-hours ..."
       "... em-role ..."
-      "... em-app ...";
+      "... em-app ..."
+      "... foot ...";
   }
 }
 @media (min-width: 1200px) {
@@ -358,7 +360,8 @@ employment styling
     grid-template-areas:
       "... em-hours ..."
       "... em-role ..."
-      "... em-app ...";
+      "... em-app ..."
+      "... foot ...";
   }
 }
 
@@ -394,7 +397,8 @@ employment styling
     color: gold;
   }
 }
-
+footer{
+  grid-area:foot;}
 @media (max-width: 600px) {
   .p-hours {
     font-size: 25px;
