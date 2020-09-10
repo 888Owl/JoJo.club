@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3511b06.chunk.css",
+    "main.js": "/static/js/main.a8f53c67.chunk.js",
+    "main.js.map": "/static/js/main.a8f53c67.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3f435202.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3f435202.js.map",
+    "static/js/2.c3bb6227.chunk.js": "/static/js/2.c3bb6227.chunk.js",
+    "static/js/2.c3bb6227.chunk.js.map": "/static/js/2.c3bb6227.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5058f5b5d9a9180d63bed7378e80c13c.js": "/precache-manifest.5058f5b5d9a9180d63bed7378e80c13c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b3511b06.chunk.css.map": "/static/css/main.b3511b06.chunk.css.map",
+    "static/js/2.c3bb6227.chunk.js.LICENSE": "/static/js/2.c3bb6227.chunk.js.LICENSE",
+    "static/media/hours-min.png": "/static/media/hours-min.fc0aa71f.png",
+    "static/media/incentives-min.png": "/static/media/incentives-min.dfb5a28e.png",
+    "static/media/index.css": "/static/media/j-mob-101-min.290f6dd7.png",
+    "static/media/j-line-min.png": "/static/media/j-line-min.8513a3b7.png",
+    "static/media/store-0-min.png": "/static/media/store-0-min.fe80c071.png",
+    "static/media/store-1-min.png": "/static/media/store-1-min.40b75026.png",
+    "static/media/store-2-min.png": "/static/media/store-2-min.82a1427d.png",
+    "static/media/store-3-min.png": "/static/media/store-3-min.4f391b4b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f435202.js",
+    "static/js/2.c3bb6227.chunk.js",
+    "static/css/main.b3511b06.chunk.css",
+    "static/js/main.a8f53c67.chunk.js"
+  ]
+}

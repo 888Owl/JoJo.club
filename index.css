@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@media (max-width: 900px){
+    body {
+        background-color: black;
+        background-image: url('https://i.ibb.co/M1pmc0Q/j-mob-101-min.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (min-width: 900px){
+    body {
+        background-color: black;
+        background-image: url('https://i.ibb.co/c3vnFbK/j-101-min.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.button-submit{
+    width: 100px;
+    height:25px;
+}
